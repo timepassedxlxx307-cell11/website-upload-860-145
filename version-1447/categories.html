@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片分类 - 欧美电影榜</title>
+  <meta name="description" content="欧美电影、热门剧集、全球影片分类浏览，支持按专题和区域进入影片详情页。">
+  <meta name="keywords" content="欧美电影,在线观看,免费电影,好莱坞大片,欧美电影排行榜,高清电影,多设备播放,离线缓存,永久免费,电影网站">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="header-row">
+      <a class="logo" href="./index.html" aria-label="欧美电影榜">
+        <span class="logo-mark">▶</span>
+        <span>欧美电影榜</span>
+      </a>
+      <form class="header-search" action="./search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、类型" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开菜单">☰</button>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="./index.html" class="">首页</a>
+      <a href="./categories.html" class="is-active">分类</a>
+      <a href="./ranking.html" class="">排行榜</a>
+      <a href="./search.html" class="">搜索</a>
+      <a href="./category/region-euro-america.html" class="">欧美作品</a>
+    </nav>
+  </div>
+  <nav class="mobile-panel" data-mobile-panel aria-label="移动导航">
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类</a>
+    <a href="./ranking.html">排行榜</a>
+    <a href="./search.html">搜索</a>
+    <a href="./category/region-euro-america.html">欧美作品</a>
+  </nav>
+</header>
+<main class="page-shell">
+  <div class="page-head">
+    <div>
+      <h1>影片分类</h1>
+      <p>按专题与区域入口浏览影片，每个入口都包含真实影片卡片和可访问详情页。</p>
+    </div>
+    <a class="btn-ghost" href="./ranking.html">进入排行榜</a>
+  </div>
+  <section class="section-block">
+    <div class="section-title">
+      <h2>专题分类</h2>
+      <p>专题入口覆盖热门推荐、欧美大片、悬疑犯罪、动作奇幻、剧集综艺等内容。</p>
+    </div>
+    <div class="category-grid">
+      <a class="category-card" href="./category/hot-selection.html">
+  <div class="category-card-content">
+    <strong>热门精选</strong>
+    <span>近期高热度影片合集，覆盖剧情、动作、悬疑、喜剧等多元题材。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/euro-american.html">
+  <div class="category-card-content">
+    <strong>欧美大片</strong>
+    <span>欧美电影与剧集推荐，聚合经典叙事、商业大片与口碑佳作。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/new-releases.html">
+  <div class="category-card-content">
+    <strong>新片速递</strong>
+    <span>按热播趋势整理的新近影片与高关注作品，适合快速浏览。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/cinema-rank.html">
+  <div class="category-card-content">
+    <strong>影院榜单</strong>
+    <span>适合排行榜浏览的影片专题，聚焦高讨论度与强故事性内容。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/action-fantasy.html">
+  <div class="category-card-content">
+    <strong>动作奇幻</strong>
+    <span>动作、冒险、奇幻、科幻元素丰富的电影与剧集精选。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/suspense-crime.html">
+  <div class="category-card-content">
+    <strong>悬疑犯罪</strong>
+    <span>悬疑推理、犯罪调查、惊悚反转等类型内容集中展示。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/romance-drama.html">
+  <div class="category-card-content">
+    <strong>爱情剧情</strong>
+    <span>情感、家庭、现实、青春与文艺剧情向作品集合。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/comedy-family.html">
+  <div class="category-card-content">
+    <strong>喜剧家庭</strong>
+    <span>轻松喜剧、家庭温情、都市生活与合家欢影片推荐。</span>
+    <span>167 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/horror-thriller.html">
+  <div class="category-card-content">
+    <strong>恐怖惊悚</strong>
+    <span>恐怖、惊悚、灵异、灾难与暗黑氛围作品专题。</span>
+    <span>166 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/anime-animation.html">
+  <div class="category-card-content">
+    <strong>动漫动画</strong>
+    <span>动画电影、动漫剧集、奇幻冒险与全年龄向动画内容。</span>
+    <span>166 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/series-variety.html">
+  <div class="category-card-content">
+    <strong>剧集综艺</strong>
+    <span>电视剧、网络剧、综艺、纪录与连载内容综合推荐。</span>
+    <span>166 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/classic-theater.html">
+  <div class="category-card-content">
+    <strong>经典片库</strong>
+    <span>经典电影、老片回顾、时代佳作与耐看作品归档。</span>
+    <span>166 部</span>
+  </div>
+</a>
+    </div>
+  </section>
+  <section class="section-block">
+    <div class="section-title">
+      <h2>区域片库</h2>
+      <p>根据影片地区整理的区域入口，方便快速查找欧美、华语、日韩及全球精选内容。</p>
+    </div>
+    <div class="category-grid">
+      <a class="category-card" href="./category/region-euro-america.html">
+  <div class="category-card-content">
+    <strong>欧美作品</strong>
+    <span>来自欧美地区的电影、剧集与高分口碑内容。</span>
+    <span>790 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/region-chinese.html">
+  <div class="category-card-content">
+    <strong>华语作品</strong>
+    <span>中国大陆、香港、台湾等华语电影与剧集内容。</span>
+    <span>819 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/region-japan-korea.html">
+  <div class="category-card-content">
+    <strong>日韩作品</strong>
+    <span>日本、韩国地区电影、动画、剧集与热门作品。</span>
+    <span>312 部</span>
+  </div>
+</a>
+<a class="category-card" href="./category/region-global.html">
+  <div class="category-card-content">
+    <strong>全球精选</strong>
+    <span>其他地区的电影、剧集、纪录与类型片精选。</span>
+    <span>79 部</span>
+  </div>
+</a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <h3>欧美电影榜</h3>
+        <p>精选欧美电影、全球佳作、热门剧集与高分内容，提供清晰分类、排行榜、搜索筛选和多端播放体验。</p>
+      </div>
+      <div>
+        <h3>快捷入口</h3>
+        <div class="footer-links">
+          <a href="./index.html">首页推荐</a>
+          <a href="./categories.html">分类浏览</a>
+          <a href="./ranking.html">热度排行</a>
+          <a href="./search.html">影片搜索</a>
+        </div>
+      </div>
+      <div>
+        <h3>专题分类</h3>
+        <div class="footer-links">
+          <a href="./category/hot-selection.html">热门精选</a>
+        <a href="./category/euro-american.html">欧美大片</a>
+        <a href="./category/new-releases.html">新片速递</a>
+        <a href="./category/cinema-rank.html">影院榜单</a>
+        <a href="./category/action-fantasy.html">动作奇幻</a>
+        <a href="./category/suspense-crime.html">悬疑犯罪</a>
+        </div>
+      </div>
+      <div>
+        <h3>区域片库</h3>
+        <div class="footer-links">
+          <a href="./category/region-euro-america.html">欧美作品</a>
+        <a href="./category/region-chinese.html">华语作品</a>
+        <a href="./category/region-japan-korea.html">日韩作品</a>
+        <a href="./category/region-global.html">全球精选</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 欧美电影榜. All Rights Reserved.</div>
+  </div>
+</footer>
+<script src="./assets/js/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
